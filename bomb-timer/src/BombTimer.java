@@ -15,7 +15,7 @@ public class BombTimer extends JFrame {
 
     public BombTimer(int minutes) {
         // Convert minutes to seconds
-        timeRemaining = 10;//minutes * 60;
+        timeRemaining = minutes * 60;
 
         // Load bomb image
         bombIcon = new ImageIcon("./src/assets/bomb.png");
