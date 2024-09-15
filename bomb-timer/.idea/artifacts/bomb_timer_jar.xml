@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="bomb-timer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/bomb_timer_jar</output-path>
+    <root id="archive" name="bomb-timer.jar">
+      <element id="module-output" name="bomb-timer" />
+    </root>
+  </artifact>
+</component>

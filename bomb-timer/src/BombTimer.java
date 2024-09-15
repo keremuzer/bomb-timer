@@ -10,7 +10,7 @@ public class BombTimer extends JFrame {
     private Point initialClick;
     private JLabel timerLabel;
     private int timeRemaining;
-    private JLabel bombLabel;  // Now an instance variable
+    private JLabel bombLabel;
     private ImageIcon bombIcon;
 
     public BombTimer(int minutes) {
@@ -40,7 +40,7 @@ public class BombTimer extends JFrame {
         // Add the timer display label
         timerLabel = new JLabel(formatTime(timeRemaining), SwingConstants.CENTER);
         timerLabel.setForeground(Color.RED);  // Red text color
-        timerLabel.setBounds(132, 180, 150, 30);  // Adjust size and position based on new image size
+        timerLabel.setBounds(120, 180, 150, 30);  // Adjust size and position based on new image size
 
         // Load font
         try {
